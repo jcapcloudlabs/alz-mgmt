@@ -1,0 +1,68 @@
+"management_groups":
+- "archetypes":
+  - "root_custom"
+  "display_name": "mg-eu-jcaptechlabs-root"
+  "exists": true
+  "id": "mg-eu-jcaptechlabs-root"
+  "parent_id": null
+- "archetypes":
+  - "platform_custom"
+  "display_name": "mg-eu-platform"
+  "exists": false
+  "id": "mg-eu-platform"
+  "parent_id": "mg-eu-jcaptechlabs-root"
+- "archetypes":
+  - "landing_zones_custom"
+  "display_name": "mg-eu-landingzones"
+  "exists": false
+  "id": "mg-eu-landingzones"
+  "parent_id": "mg-eu-jcaptechlabs-root"
+- "archetypes":
+  - "corp_custom"
+  "display_name": "mg-eu-corp"
+  "exists": false
+  "id": "mg-eu-corp"
+  "parent_id": "mg-eu-landingzones"
+- "archetypes":
+  - "online_custom"
+  "display_name": "mg-eu-online"
+  "exists": false
+  "id": "mg-eu-online"
+  "parent_id": "mg-eu-landingzones"
+- "archetypes":
+  - "sandbox_custom"
+  "display_name": "mg-eu-sandbox"
+  "exists": false
+  "id": "mg-eu-sandbox"
+  "parent_id": "mg-eu-jcaptechlabs-root"
+- "archetypes":
+  - "security_custom"
+  "display_name": "mg-eu-security"
+  "exists": false
+  "id": "mg-eu-security"
+  "parent_id": "mg-eu-platform"
+- "archetypes":
+  - "management_custom"
+  "display_name": "mg-eu-management"
+  "exists": false
+  "id": "mg-eu-management"
+  "parent_id": "mg-eu-platform"
+- "archetypes":
+  - "connectivity_custom"
+  "display_name": "mg-eu-connectivity"
+  "exists": false
+  "id": "mg-eu-connectivity"
+  "parent_id": "mg-eu-platform"
+- "archetypes":
+  - "identity_custom"
+  "display_name": "mg-eu-identity"
+  "exists": false
+  "id": "mg-eu-identity"
+  "parent_id": "mg-eu-platform"
+- "archetypes":
+  - "decommissioned_custom"
+  "display_name": "mg-eu-decommissioned"
+  "exists": false
+  "id": "mg-eu-decommissioned"
+  "parent_id": "mg-eu-jcaptechlabs-root"
+"name": "alz_custom"
